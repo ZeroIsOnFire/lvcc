@@ -10,7 +10,6 @@ Just have fun :)
 Basic commands:
 
 /vcchelp
-
 /vcolor color1 color2
 /vcolor color
 /vpaint paintjob
