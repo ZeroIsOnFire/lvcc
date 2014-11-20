@@ -12,43 +12,44 @@
 
 #define FILTERSCRIPT
 
-//Colors
-#define COLOR_BLACK 000
-#define COLOR_WHITE 001
+//Colors for future use
+//#define COLOR_BLACK 000
+//#define COLOR_WHITE 001
 
-#define COLOR_DARKGREY 101
-#define COLOR_GREY 011
-#define COLOR_LIGHTGREY 032
+//#define COLOR_DARKGREY 101
+//#define COLOR_GREY 011
+//#define COLOR_LIGHTGREY 032
 
-#define COLOR_DARKGREEN 044
-#define COLOR_GREEN 016
-#define COLOR_LIGHTGREEN 086
-#define COLOR_LIME 128
+//#define COLOR_DARKGREEN 044
+//#define COLOR_GREEN 016
+//#define COLOR_LIGHTGREEN 086
+//#define COLOR_LIME 128
 
-#define COLOR_LIGHTRED 003
-#define COLOR_RED 017
-#define COLOR_DARKRED 124
-#define COLOR_PINK 126
+//#define COLOR_LIGHTRED 003
+//#define COLOR_RED 017
+//#define COLOR_DARKRED 124
+//#define COLOR_PINK 126
 
-#define COLOR_LIGHTBLUE 007
-#define COLOR_BLUE 079
-#define COLOR_DARKBLUE 125
-#define COLOR_CYAN 002
+//#define COLOR_LIGHTBLUE 007
+//#define COLOR_BLUE 079
+//#define COLOR_DARKBLUE 125
+//#define COLOR_CYAN 002
 
-#define COLOR_LIGHTYELLOW 006
-#define COLOR_YELLOW 065
-#define COLOR_DARKYELLOW 061
+//#define COLOR_LIGHTYELLOW 006
+//#define COLOR_YELLOW 065
+//#define COLOR_DARKYELLOW 061
 
-#define COLOR_BROWN 030
-#define COLOR_LIGHTBROWN 119
+//#define COLOR_BROWN 030
+//#define COLOR_LIGHTBROWN 119
 
-#define COLOR_PURPLE 005
-#define COLOR_DARKPURPLE 085
+//#define COLOR_PURPLE 005
+//#define COLOR_DARKPURPLE 085
 
-#define COLOR_ORANGE 158
-#define COLOR_TEAL 093
+//#define COLOR_ORANGE 158
+//#define COLOR_TEAL 093
 
 #include <a_samp>
+#include <sscanf2>
 #include <zcmd>
 
 public OnFilterScriptInit(){
@@ -109,6 +110,3 @@ CMD:vpaint(playerid, params[]){
 	return 1;
 }
 
-int CompareColorText(text){
-
-}
