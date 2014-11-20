@@ -22,7 +22,7 @@ Installation:
 
 1 - Install sscanf plugin: https://github.com/Y-Less/sscanf/wiki/Installing-The-Plugin
 
-2 - Download and install zcmd.inc at pawno/include folder (http://forum.sa-mp.com/showthread.php?t=91354) (optional, only if  you need to use the source code, file LCVV.pwn)
+2 - Download and install zcmd.inc at pawno/include folder (http://forum.sa-mp.com/showthread.php?t=91354) (optional, only if  you need to use the source code, file lvcc.pwn)
 
 3 - Add lvcc.amx to your filterscripts folder
 
